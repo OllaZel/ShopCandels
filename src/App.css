@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+body {
+  background: #F5EBE0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu {
+  display: flex;
+  justify-content: end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  padding: 10px;
+  margin: 15px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-title {
+  display: flex;
+}
+
+.containerAbout, .containerProducts {
+  display: flex;
+}
+
+.containerAboutPerson {
+  font-family: 'Inter', sans-serif;
+  padding: 10px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.foto {
+  border-radius: 80%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.containerAboutShop {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.filter, .filterOne, .filterTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.filter {
+  min-width: 200px;
+}
+
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardProduct {
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  width: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+}
+
+.description {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.btnShowMore {
+  border: none;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  background-color: #D5BDAF;
+  padding: 8px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #F5EBE0;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  align-items: start;
+  
+}
+
+.containerContacts {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form, .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact {
+  width: 350px;
+  background-color: #e3d5ca;
 }
+
+.telefon {
+  font-size: 22px;
+}
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea, input {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  margin: 10px;
+  padding: 20px;
+  width: 400px;
+}
+
+.btnSubmit {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 120px;
+  padding: 10px;
+  background-color: #D5BDAF;
+  margin-top: 20px;
+  border: none;
+  font-weight: bolder;
+}
+
+.previous {
+  font-size: 30px;
+  border: none;
+  background-color: #F5EBE0;
+  margin-right: 30px;
+}
+
+.next {
+  font-size: 30px;
+  border: none;
+  background-color: #F5EBE0;
+  margin-left: 30px;
+}
+
