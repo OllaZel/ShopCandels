@@ -4,7 +4,7 @@ body {
 
 .menu {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .link {
@@ -56,7 +56,7 @@ h2 {
 .filter, .filterOne, .filterTwo {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   margin-left: 10px;
   font-family: 'Inter', sans-serif;
 }

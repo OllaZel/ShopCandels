@@ -28,7 +28,7 @@ function App() {
     </Routes>
   </Router>;
 
-  <h>HYGGE</h>
+
 }
 
 export default App;
