@@ -52,7 +52,7 @@ function Products() {
 
         <div className="catalogue">
             {list.map((thing => {
-                const {id, name, price, volume, image, fragrance,  description, showMore} = thing;
+                const {id, name, price, volume, image, description, showMore} = thing;
                 
                 const btnText = showMore ? "Скрыть" : "Подробнее";
 
